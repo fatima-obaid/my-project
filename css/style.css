@@ -1,0 +1,825 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 7240px;
+}
+.header{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+hr{
+    width: 1080px;
+    margin-left: -20px;
+}
+.ul1{
+    list-style: none;
+    float: left;
+    margin-left:12%;  
+}
+.ul1   li{
+display: inline-block;
+margin-left: 50px;
+font-size: 5px;
+margin-top: 18px;
+margin-bottom: 20px;
+}
+.ul1 li a{
+    text-decoration: none;
+}
+a{
+    color:rgba(0, 0, 0, 0.708);
+    font-family:  'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 1s; 
+}
+a:hover ,.a1{
+    color:  #c14679;
+    padding: 19px 10px;
+    border: 1px solid  rgba(196, 196, 194, 0.341);
+     background-color:  rgba(196, 196, 194, 0.341);
+     border-radius: 50px;
+}
+.a1{
+    border-radius: 20px;
+}
+.container{
+    background-image:url(../imges/sweet.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100%;
+    height: 500px;
+    margin-top: 240px;  
+}
+address, .logo ,[type="button"]{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: -40px;
+}
+.logo{
+    width: 190px;
+    margin-left: 280px; 
+}
+[type="button"]{
+    border: 2px solid  #c14679;
+    background-color: white;
+    border-radius: 5px;
+    font-family:  'Cormorant Garamond', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    margin-left: 300px;
+    padding-left:2px ;
+    cursor: pointer;
+    transition: 2s;
+}
+[type="button"]:hover{
+    background-color: #c14679cc; 
+    color: rgb(244, 244, 235); 
+}
+.fa-envelope{
+    padding:3px;   
+}
+address{
+    color: rgb(81, 79, 79);
+    margin-left: 260px;
+    margin-bottom: -10px;
+    text-transform: capitalize;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+address:hover{
+    color:#c14679;   
+}
+.title1{
+    color:#c14679;
+    text-transform:capitalize;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 10;
+    margin-left: 180px;
+    margin-top: -100px;
+    padding-top: 50px;
+    font-size: 130px; 
+}
+.title2{
+    margin-left: 190px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+}
+.pre1{
+    margin-top: 20px;
+    margin-left:110px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+.shop-now{
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 195px;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid  #c14679;
+    border-radius: 5px;
+    background-color:  #c14679;
+    color: rgb(244, 244, 235);
+    font-size: 17px;
+}
+.shop-now:hover{
+    border: 1px solid #ae3d6c;
+    border-radius: 10px;
+    background-color:  #ae3d6c;
+}
+.hr1,.hr3,.hr5,.hr9,.hr11,.hr13{
+    width: 320px;
+    margin-left: 980px; 
+    margin-top: -20px; 
+}
+.hr2,.hr4,.hr6,.hr10,.hr12,.hr14{
+    width: 320px;
+    margin-left: 230px;
+}
+.WHAT-WE-OFFER,.products,.choose,.title-blog,.title-team{
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 110px;
+}
+.WHAT-WE-OFFER h3,.products h3,.choose h3,.about-us h3,.title-team h3,.title-blog h3{
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgba(104, 103, 103, 0.719);
+  }
+.PARTY-CUPCAKES, .CHOCO-CAKES, .WEDDING-CAKES,.blog1,.blog2,.blog3{
+    width: 370px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid  rgba(196, 196, 194, 0.219);
+    text-align: center;
+    float: left;
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-bottom: 180px;
+}
+.PARTY-CUPCAKES{
+    margin-left: 130px;   
+}
+.img-party,.img-choco,.img-wedding{
+    border: 1px solid  rgba(196, 196, 194, 0.341);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+    transition: 3s;
+}
+.img-party{
+    background-image: url(../imges/Vanilla-Cupcakes.webp);
+    background-size: 348px 300px;
+}
+.img-choco{
+background-image: url(../imges/chcolate\ cake.jpg);
+background-size: 350px 300px;
+}
+.img-wedding{
+    background-image: url(../imges/WEDDING\ CAKES.webp);
+   background-size: 350px 300px;
+}
+.img-party:hover,.img-choco:hover,.img-wedding:hover{
+    background-size: 370px 320px;
+    cursor: pointer;
+}
+.party,.choco,.wedding{
+    margin: 30px auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    color: rgb(45, 45, 44) ;
+}
+pre{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    color: rgb(45, 45, 44) ;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.read-more{
+    border: none;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px 15px;
+    color:  rgb(131, 131, 130);
+    background-color: rgb(255, 255, 255);
+}
+.read{
+    border: 1px solid  rgba(149, 148, 148, 0.853);
+    width:100px;
+    margin: auto;
+}
+.read-more:hover{
+   border: 3px solid  rgb(184, 184, 182); 
+   border-radius: 5px;
+   color:rgba(61, 61, 61, 0.79);
+   cursor: pointer;
+   height: 40px;
+}
+/* products */
+.products{
+    margin-top: -100px;
+}
+.mini-cake, .vanilla ,.mousse-cake,.vanilla-cake,.chocolate-cake,.cherry-cakes, .vegan-cake,.Naked-cake,.vegan-strawberry,.germany-cake{
+    position: relative;
+    width: 200px;
+    height: 307px;
+    text-align: center;
+    float: left;
+    margin-top: 120px;
+    margin-left: 85px;
+    transition: 2s;
+}
+.cherry-cakes, .vegan-cake,.Naked-cake,.vegan-strawberry,.germany-cake{
+    margin-top: 50px;
+}
+.overlay{
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: #f1eef0;
+    position: absolute; 
+    width: 200px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay >* {
+    transform: translate(20px,20px);
+    transition: transform 1s;
+}
+.overlay:hover >*{
+    transform: translatey(0); 
+}
+.overlay h5{
+margin-top: 80px;
+color: rgba(104, 103, 103, 0.926);
+}
+.overlay h6{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.search{
+    float: left;
+    margin-left: 45px;
+    border: 2px solid  rgba(140, 140, 135, 0.766);
+    border-radius: 60%;
+    padding:9px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color:rgb(227, 222, 222);
+    background-color:rgba(140, 140, 135, 0.864);
+} 
+.search:hover{
+    border: 2px solid  #ae3d6c ;
+    color: #ae3d6c;
+    background-color:rgb(227, 222, 222);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding-bottom: 8px;
+    transition: 2s;
+}  
+.shooping{
+    float: left;
+    margin-left: 20px;
+    border: 2px solid  #c14679;
+    color: #c14679;
+    border-radius: 60%;
+    padding:8px 0;
+    width: 40px;
+    height: 40px;
+}
+.shooping:hover{
+    border: 2px solid  rgb(140, 140, 135);
+    color:rgb(140, 140, 135);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    transition: 2s;
+}
+.mini-cake:hover .overlay,.vanilla:hover .overlay,.mousse-cake:hover .overlay,.vanilla-cake:hover .overlay,.chocolate-cake:hover .overlay,.cherry-cakes:hover .overlay, .vegan-cake:hover .overlay,.Naked-cake:hover .overlay,.vegan-strawberry:hover .overlay,.germany-cake:hover .overlay{
+    visibility:visible;
+    opacity: 1;
+    cursor: pointer;
+    transition:transform 0.6s;
+    transition: 3s;
+}
+.div1{
+    position: absolute;
+    border: 15px solid rgba(182, 182, 178, 0.211);
+    width: 1430px;
+    height:400px;
+    margin-left: 43px;
+    margin-top: 270px;
+}
+/*     WHY CHOOSE US      */
+.choose{
+    margin-top: 130px;
+}
+.inf-choose,.inf-choose3,.inf-choose1,.inf-choose4{
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: -40px;
+    font-size: 20px;
+}
+.inf-choose1,.inf-choose4{
+    margin-left: 200px;
+}
+.inf-choose4{
+    margin-left: 170px;
+}
+.inf-pre,.inf-pre3,.inf-pre1,.inf-pre4{
+    font-family: 'Cormorant Garamond', serif;
+    margin-top:20px ;
+    margin-left: -70px;
+}
+.inf-pre1,.inf-pre4{
+    margin-left: 130px;
+}
+.inf,.inf1,.inf3,.inf4{
+    float: left;
+    margin-left: 300px;
+}
+.inf,.inf1{
+    margin-top: 150px;
+}
+.inf3,.inf4{
+    margin-top: 70px;
+}
+.inf2-img{
+    margin-top: 250px;
+    margin-left: -650px;
+}
+.hr7{
+    width: 280px;
+    margin-left: 980px; 
+    margin-top: -100px; 
+}
+.hr8{
+    width: 280px;
+    margin-left: 260px;
+  }
+.fa-credit-card,.fa-star-of-life,.fa-shipping-fast,.fa-birthday-cake{
+    margin-left: 15px;
+    color: #c14679e0;
+     font-size: 35px;
+     transition: 2s;
+}
+.fa-credit-card:hover,.fa-star-of-life:hover,.fa-shipping-fast:hover,.fa-birthday-cake:hover{
+    color: rgba(104, 103, 103, 0.719);
+    cursor: pointer;  
+    transition: 2s;
+    font-size: 43px;
+}
+/*       SUMMER SALE   */
+.section3{
+    position: relative;
+    background-image: url(../imges/parallax-4.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: 350px;
+}
+.summer-sale{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(213, 211, 211, 0.51);
+}
+.summer1-sale{
+    margin-left: 700px;
+    margin-top: 70px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.title-sale{
+font-size: 70px;
+color: rgba(26, 26, 26, 0.77);
+}
+.title1-sale{
+margin-top: 20px;
+font-size: 25px;
+}
+b{
+    font-family: 'Great Vibes', cursive;
+    color: #c14679e0;
+    margin-right: 25px;
+    font-size: 50px;
+    font-weight: 10;
+}
+.pre-sale{
+margin-left: -60px;
+text-transform: capitalize;
+font-size: 20px;
+}
+.butt-sale{
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid  #c14679;
+    border-radius: 5px;
+    background-color:  #c14679;
+    color: rgb(244, 244, 235);
+    font-size: 17px;
+    transition: 2s;
+}
+.butt-sale:hover{
+    opacity: 0.7;
+}
+/*         ABOUT US      */
+.about-us{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 140px;
+}
+.img-about,.inf-us,.inf-about{
+    float: left;
+    margin-top: 130px;
+}
+.img-about{
+    margin-left: 190px;
+    position: relative;
+}
+.img-about::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(196, 196, 194);
+    opacity: 0;
+}
+.img-about:hover::after{
+    width:600px;
+    height:460px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 1s;
+}
+.inf-us{
+    border: 15px solid   rgba(196, 196, 194, 0.219);
+    width: 300px;
+    height: 500px;
+    margin-left: 80px;
+}
+.inf-about{
+    background-color:rgb(255, 255, 255);
+    margin-top: 270px;
+    margin-left: -250px;
+    width: 500px;
+    height: 250px;
+}
+.title-about{
+margin-top: 30px;
+font-size: 30px;
+}
+.pre-about{
+margin-top: 20px;
+margin-left: -30px;
+text-transform: capitalize;
+line-height: 25px;
+}
+.butt-about{
+    background-color:rgb(255, 255, 255);
+    border: none;
+    padding-bottom: 5px ;
+    margin-left: -430px;
+     margin-top: 500px;
+    color:  rgba(131, 131, 130, 0.749);
+    border-bottom: 3px solid rgba(131, 131, 130, 0.453);
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    transition: 1s;
+}
+.butt-about:hover{
+    letter-spacing: 2px;
+    color:#c14679 ;
+    cursor: pointer;
+    border-bottom:3px solid #c14679 ;
+}
+.ul2{
+    margin-left: 230px;
+    margin-top: -5px;
+}
+.ul2 li{
+    float: left;
+    margin-left: 50px;
+    font-size: 55px;
+    color:  rgba(131, 131, 130, 0.24);
+    cursor: pointer;
+}
+.ul2 li:hover{
+    color:  rgba(131, 131, 130, 0.91);
+    font-size: 50px;
+}   
+.ul2 .li2{
+ color: rgba(131, 131, 130, 0.91);
+}
+/* our team */
+.title-team{
+    margin-top: 150px; 
+}
+.title-team h3{
+    margin-left: 70px;
+    text-align: center;
+}
+.team1,.team2,.team3{
+float: left;
+margin-top: 150px;
+}
+.team img{
+    border: 10px solid rgba(169, 166, 166, 0.336);
+    border-radius: 50%;
+    transition: 2s;
+}
+.team1{
+    margin-left: 180px;
+}
+.team2,.team3{
+    margin-left: 150px;
+}
+.team1 h5 ,.team2 h5,.team3 h5{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.team1 pre,.team2 pre,.team3 pre{
+    margin-top: 20px;
+    text-align:center;
+    margin-left: -55px;
+}
+.fa-facebook-f{
+    margin-left: 90px;
+    font-size: 18px;
+    transition: 2s;
+}
+.fa-twitter,.fa-instagram,.fa-google-plus-g{
+margin-top: 15px;
+margin-left: 10px;
+font-size: 18px;
+transition: 2s;
+}
+.team3 h5{
+    margin-left: 5px;
+}
+.team3 pre{
+    margin-left: -35px;
+}
+.team img:hover{
+   width: 290px; 
+   height:290px ;
+}
+.fa-twitter:hover,.fa-instagram:hover,.fa-google-plus-g:hover,.fa-facebook-f:hover{
+    color:#c14679 ;
+    cursor: pointer;
+    font-size: 25px;
+}
+.team1 h5:hover ,.team2 h5:hover,.team3 h5:hover{
+    color:#c14679 ;
+    cursor: pointer; 
+}
+/*    Our Blog   */
+.title-blog{
+    margin-left: 655px;
+    margin-top: 100px;
+}
+.blog1,.blog2,.blog3{
+    position: relative;
+    width: 340px;
+    height: 550px;
+    margin-top: 130px;
+}
+.blog1{
+    margin-left: 180px;    
+}
+.img-blog1,.img-blog2,.img-blog3{
+    background-repeat: no-repeat;
+    background-size: 321px 290px;
+    width: 350px;
+    height: 250px;
+    transition: 3s;   
+}
+.img-blog1{
+    background-image: url(../imges/Spice-Cake-6.jpg);
+}
+.img-blog2{
+background-image: url(../imges/blueberry-butter-cake-2.jpg);
+}
+.img-blog3{
+    background-image: url(../imges/single-tiered-semi-naked-wedding-cake-white-flowers-stocksy-primary-0823-2fb89eb2d5f347e29f50e7fb50db65a6.jpg);
+}
+.blog1 h6,.blog2 h6,.blog3 h6{
+    text-transform: capitalize;
+    color:#c14679 ;
+    margin-top: 29px;
+    font-size: 22px;
+    font-weight: 700px;
+    margin-left:-150px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.blog-p{
+    font-size: 25px;
+    margin-left: -230px;
+    margin-top: 25px;
+}
+.blog-pre{
+    margin-top: 10px;
+    margin-left: -110px;
+    font-size: 17px;
+}
+.but-blog{
+    border: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 2px;
+    color:  rgb(131, 131, 130);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(131, 131, 130);
+}
+.but-blog1{
+    font-family: 'Cormorant Garamond', serif;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(131, 131, 130);
+    font-weight: 700;
+    border-bottom: 3px solid rgba(131, 131, 130, 0.763);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 2px;
+}
+.but-blog:hover,.but-blog1:hover{
+    letter-spacing: 2px;
+    color:#c14679 ;
+    cursor: pointer;
+    border-bottom:3px solid #c14679 ;
+}
+.blog1::after,.blog2::after,.blog3::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(196, 196, 194);
+    opacity: 0;
+    transition: 2s;
+}
+.blog1:hover::after,.blog2:hover::after,.blog3:hover::after{
+    width:100%;
+    height:100%;
+    opacity: 0.5;
+    cursor: pointer; 
+}
+/*     section7     */
+.sec1{
+    border:1px soild  rgba(255, 255, 255, 0.185);
+    background-image: url(../imges/photo.avif);
+    background-size: cover;
+    margin-top:800px;
+    width: 100%;
+    height: 330px;
+}
+.clients1,.clients2,.clients3,.clients4,.clients5{
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+    opacity: 0.9;
+}
+.clients1{
+    margin-left:250px ;
+}
+.clients1:hover,.clients2:hover,.clients3:hover,.clients4:hover,.clients5:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.clients1 img:hover,.clients2 img:hover,.clients3 img:hover,.clients4 img:hover,.clients5 img:hover{
+width: 130px;
+transition: 2s;
+}
+/*    footer   */
+.footer-inf,.footer-inf1{
+    float: left;
+    margin-top: 70px;
+    width: 500px;
+    height: 300px;
+}
+.footer-inf{
+    margin-left: 300px;
+}
+.footer-inf img{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.footer-pre{
+    margin-left: -30px;
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-family: 'Cormorant Garamond', serif;
+    color:  #575757;
+}
+.footer-code1,.footer-code2,.footer-code3{
+    display:block;
+    color:  #575757;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 28px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.footer-h5{
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 25px; 
+    color:  #575757;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.face,.twitt,.inst,.google{
+    margin-left:10px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 41px;
+    height: 41px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid #575757;
+    color:  #575757;
+}
+.face{
+    margin-left: 150px;
+}
+.face:hover,.twitt:hover,.inst:hover,.google:hover{
+    border: 1px solid #c14679;
+    color:#c14679 ;
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer-code1 i,.footer-code2 i,.footer-code3 i{
+    padding-right: 15px;
+    color: #c14679;
+    font-size: 18px;
+}
+.hr15{
+    width: 100%;
+    margin-top: 480px;
+    margin-left: 0.2px;
+}
+p{
+    text-align: center;
+    color:  #575757;
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 20px; 
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
